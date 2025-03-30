@@ -1,0 +1,117 @@
+body{
+  background:linear-gradient(rgb(0, 255, 247),blue);
+  height:1000px;
+  margin: 0; 
+  padding: 0;
+  background-repeat: no-repeat;
+  }
+.topnav
+  {
+    overflow: hidden;/*agar ye nahi lagayenge to content( of navbar) overflow ho jayega, hidden se jo overflow wala content hota hai vo hide ho jata hai*/
+    background-color:rgb(8,8,94);
+    
+  }
+  #navcont{padding-left: 300 px;}
+  
+  .topnav a,td
+  {
+    float: left;
+    color: #f2f2f2;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+  }
+  .topnav a#split
+  {
+    float: right;
+    color: white;
+  }
+  .topnav a:hover
+  {
+    background-color: #6e7879;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #6e7879;
+    color: rgb(255, 255, 255);
+  }
+ 
+.main {
+  flex: 1;
+  height:300px;
+  margin: 20px;
+  }
+
+#footer {
+  background:rgb(1, 1, 48);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 150px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+.box1{
+  height:300px;
+  margin-top: 20px;
+  width: 80%;
+  float:left;
+
+  
+
+
+}
+.box2{
+  border-radius: 100%;
+  border: solid rgb(57, 17, 168);
+  background:radial-gradient(blue,rgb(0, 255, 247));
+  height:200px;
+  margin-top: 20px;
+  width: 200px;
+  float:right;
+  align-content: center;
+  img{height: 180px;width: 180px;padding-left: 10px;}
+  
+
+
+}
+#about {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Cool gradient */
+  color: white; /* Text color */
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px; /* Smooth rounded edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+#about h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+  #about {
+      padding: 30px 15px;
+  }
+  
+  #about h3 {
+      font-size: 24px;
+  }
+  
+  #about p {
+      font-size: 16px;
+  }
