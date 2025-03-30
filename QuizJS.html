@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdTech Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h1>Knowledge Check</h1>
+            <div class="quiz-progress">
+                <span id="current-question">1</span> of <span id="total-questions">5</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+        </header>
+
+        <main class="quiz-main">
+            <div id="question-container" class="question-container">
+                <h2 id="question">Loading question...</h2>
+                <div id="options" class="options">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div id="result-container" class="result-container hidden">
+                <h2>Quiz Completed!</h2>
+                <p>Your score: <span id="score">0</span>/<span id="max-score">0</span></p>
+                <div id="feedback" class="feedback"></div>
+                <button id="retry-btn" class="btn">Try Again</button>
+            </div>
+        </main>
+
+        <footer class="quiz-footer">
+            <button id="prev-btn" class="btn" disabled>Previous</button>
+            <button id="next-btn" class="btn">Next</button>
+            <button id="submit-btn" class="btn hidden">Submit Quiz</button>
+        </footer>
+    </div>
+    
+
+    <script src="JsJs.js"></script>
+</body>
+</html>
