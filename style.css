@@ -1,79 +1,67 @@
-body{
-  background:linear-gradient(rgb(0, 255, 247),blue);
-  height:1000px;
-  margin: 0; 
-  padding: 0;
-  background-repeat: no-repeat;
-  }
-.topnav
-  {
-    overflow: hidden;/*agar ye nahi lagayenge to content( of navbar) overflow ho jayega, hidden se jo overflow wala content hota hai vo hide ho jata hai*/
-    background-color:rgb(8,8,94);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%   ;
+    min-height: 150vh;  
+    background: linear-gradient(  rgb(0,255,247),blue);
+    padding: 4% 0 0 10%;
     
-  }
-  #navcont{padding-left: 300 px;}
   
-  .topnav a,td
-  {
-    float: left;
-    color: #f2f2f2;
-    
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 0; 
    
-  }
-  .topnav a#split
-  {
-    float: right;
-    color: white;
-  }
-  .topnav a:hover
-  {
-    background-color: #6e7879;
-    color: rgb(255, 255, 255);
-  }
-  
-  .topnav a.active {
-    background-color: #6e7879;
-    color: rgb(255, 255, 255);
-  }
- 
-.main {
-  flex: 1;
-  height:1600px;
-  margin: 20px;
-  }
-
-#footer {
-  background:rgb(1, 1, 48);
-  color: white;
-  text-align: center;
-  padding: 10px;
-  height: 150px;
-  margin-top: auto; /* Pushes footer to the bottom */
-}
-.box1{
-  height:300px;
-  margin-top: 20px;
-  width: 80%;
-  float:left;
-
-  
-
 
 }
-.box2{
-  border-radius: 100%;
-  border: solid rgb(57, 17, 168);
-  background:radial-gradient(blue,rgb(0, 255, 247));
-  height:300px;
-  margin-top: 20px;
-  width: 19%;
-  float:right;
-  align-content: center;
-  img{height: 250px;width: 250px;padding-left: 20px;}
-  
 
+.container h1{
+display: flex;
+align-items: center;
+font-size: 50px;
+font-weight: 600;
+
+}
+.container button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    background: blue;
+    border:0;
+    outline:0;
+    border-radius: 20px;
+    padding:15px 20px;
+    margin:30px 0 20px;
+    cursor:pointer;
+
+}
+
+
+
+.input-box{
+    position:relative;
+    width:100%;  width:900px;
+    min-height:120px;
+    background-color: white;
+    color:black;
+    padding:20px;
+    margin:20px;
+    outline:none;
+    border-radius:5px;
+}
+
+.input-box img{
+     width: 30px;
+    position:absolute;
+    color:black;
+    bottom:15px;
+    right:15px; 
+    cursor:pointer;
+    
 
 }
