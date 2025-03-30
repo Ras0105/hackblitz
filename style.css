@@ -1,17 +1,27 @@
+body{
+  background:linear-gradient(rgb(0, 255, 247),blue);
+  height:1000px;
+  margin: 0; 
+  padding: 0;
+  background-repeat: no-repeat;
+  }
 .topnav
   {
     overflow: hidden;/*agar ye nahi lagayenge to content( of navbar) overflow ho jayega, hidden se jo overflow wala content hota hai vo hide ho jata hai*/
-    background-color:#191242;
+    background-color:rgb(8,8,94);
+    
   }
+  #navcont{padding-left: 300 px;}
   
-  .topnav a
+  .topnav a,td
   {
     float: left;
     color: #f2f2f2;
-    text-align: center;
+    
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+   
   }
   .topnav a#split
   {
@@ -28,4 +38,42 @@
     background-color: #6e7879;
     color: rgb(255, 255, 255);
   }
+ 
+.main {
+  flex: 1;
+  height:1600px;
+  margin: 20px;
+  }
+
+#footer {
+  background:rgb(1, 1, 48);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 150px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+.box1{
+  height:300px;
+  margin-top: 20px;
+  width: 80%;
+  float:left;
+
   
+
+
+}
+.box2{
+  border-radius: 100%;
+  border: solid rgb(57, 17, 168);
+  background:radial-gradient(blue,rgb(0, 255, 247));
+  height:300px;
+  margin-top: 20px;
+  width: 19%;
+  float:right;
+  align-content: center;
+  img{height: 250px;width: 250px;padding-left: 20px;}
+  
+
+
+}
