@@ -1,0 +1,31 @@
+.topnav
+  {
+    overflow: hidden;/*agar ye nahi lagayenge to content( of navbar) overflow ho jayega, hidden se jo overflow wala content hota hai vo hide ho jata hai*/
+    background-color:#191242;
+  }
+  
+  .topnav a
+  {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a#split
+  {
+    float: right;
+    color: white;
+  }
+  .topnav a:hover
+  {
+    background-color: #6e7879;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #6e7879;
+    color: rgb(255, 255, 255);
+  }
+  
