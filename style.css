@@ -1,6 +1,6 @@
 body{
   background:linear-gradient(rgb(0, 255, 247),blue);
-  height:1800px;
+  height:150vh;
   margin: 0; 
   padding: 0;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@ body{
 #about h3 {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: px;
+  margin-bottom:70px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -197,7 +197,7 @@ padding-top: 20px;
 }
 
 .vegee_1{
-  background-image: url("pexels-picjumbo-com-55570-196643.jpg");
+  background-image: url("logo.webp");
   background-size: cover;
   border-radius: 50%;
   height:200px;
