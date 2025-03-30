@@ -1,17 +1,21 @@
 body{
   background:linear-gradient(rgb(0, 255, 247),blue);
-  height:1000px;
+  height:1800px;
   margin: 0; 
   padding: 0;
   background-repeat: no-repeat;
   }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;}
 .topnav
   {
     overflow: hidden;/*agar ye nahi lagayenge to content( of navbar) overflow ho jayega, hidden se jo overflow wala content hota hai vo hide ho jata hai*/
     background-color:rgb(8,8,94);
     
   }
-  #navcont{padding-left: 300 px;}
+  #navcont{padding-left: 300px;}
   
   .topnav a,td
   {
@@ -28,7 +32,7 @@ body{
     float: right;
     color: white;
   }
-  .topnav a:hover
+  .topnav a:not(.head):hover
   {
     background-color: #6e7879;
     color: rgb(255, 255, 255);
@@ -45,18 +49,18 @@ body{
   margin: 20px;
   }
 
-#footer {
+/* #footer {
   background:rgb(1, 1, 48);
   color: white;
   text-align: center;
   padding: 10px;
   height: 150px;
-  margin-top: auto; /* Pushes footer to the bottom */
-}
+  margin-top: auto; /* Pushes footer to the bottom }*/
+
 .box1{
   height:300px;
   margin-top: 20px;
-  width: 80%;
+  width: 70%;
   float:left;
 
   
@@ -70,6 +74,7 @@ body{
   height:200px;
   margin-top: 20px;
   width: 200px;
+  margin-right: 200px;
   float:right;
   align-content: center;
   img{height: 180px;width: 180px;padding-left: 10px;}
@@ -88,10 +93,12 @@ body{
   margin: 40px auto;
 }
 
+
+
 #about h3 {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -115,3 +122,88 @@ body{
   #about p {
       font-size: 16px;
   }
+
+
+
+
+
+
+  /*Footer */
+.black_box3{
+  height:10px;
+  background-color:#080808;
+  color:white;
+  margin-top:150px;
+  text-align:center;
+  padding:20px;
+}
+
+.top{
+  color:white;
+  background-color: #080808;
+  font-size: 16px;
+  border: none;
+}
+
+.black_box_1{
+  height:300px;
+  background-color: #0e0d0d;
+  width: 100%;
+  padding-top:50px;
+  color:aliceblue;
+  display:flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-size:18px;
+}
+.rights{
+  width:75%;
+  font-size: 20px;
+}
+.social_icon{
+  font-size: 20px;
+  display:flex;
+  width:12%;
+  justify-content: space-around;
+}
+.black_box_2{
+  height:60px;
+  background-color: #6B7908;
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  color:aliceblue;
+text-align: center;
+padding-top: 20px;
+
+}
+.customer_,.abt_1,.shop_1{
+  display:flex;
+  flex-direction: column;
+  font-weight: 100;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px;
+  padding-top: 10px;
+}
+.vegee_{
+  width:20%;
+  display:flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 100;
+  color:#d1cfcf;
+  gap:20px;
+}
+
+.vegee_1{
+  background-image: url("pexels-picjumbo-com-55570-196643.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  height:200px;
+  width:200px;
+  box-shadow: 12px 12px 15px 0px rgb(0, 0, 0);
+}
+.vegee_p{
+  text-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
